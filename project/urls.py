@@ -19,5 +19,4 @@ urlpatterns = [
 
     path('', include('atlas.urls')),
     path('admin/', admin.site.urls),
-
 ]
