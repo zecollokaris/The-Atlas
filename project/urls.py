@@ -14,9 +14,10 @@ as done below this is to avoid filling up all our urls in this page'''
 
 
 urlpatterns = [
-    
-    path('', include('atlas.urls')),
+    #url for registration
+    path('accounts/', include('registration.backends.simple.urls')),
 
+    path('', include('atlas.urls')),
     path('admin/', admin.site.urls),
 
 ]
