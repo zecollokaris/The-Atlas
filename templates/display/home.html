@@ -1,6 +1,12 @@
-<div id="map"></div>
+{% extends 'display/base.html' %} 
+{% load bootstrap3 %} 
+{% block content %} 
 
+<div class="container">
 
+    <div id="map"></div>
+    
+    
     <script>
         var map,
             infoWindow;
@@ -120,3 +126,7 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrdUUuAf6IUCu5TojkPfccO_RNhxCwy8I&libraries=places,geometry&callback=initMap"
         async="async" defer="defer"></script>
+
+</div>
+
+ {% endblock %}

@@ -1,4 +1,5 @@
-{% load bootstrap3 %} {% load static %}
+{% load bootstrap3 %} 
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +19,9 @@
 
 
     <title> Uber</title>
-    {% block styles%} {% bootstrap_css %} {% endblock %}
+    {% block styles%} 
+    {% bootstrap_css %} 
+    {% endblock %}
 </head>
 
 <body>
@@ -26,7 +29,7 @@
 
     <div class="container-fluid" id="body">
         {% block content %} 
-        
+
         {% endblock %}
     </div>
 
