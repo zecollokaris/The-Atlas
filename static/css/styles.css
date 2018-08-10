@@ -1,0 +1,66 @@
+
+/* ########################################################################################################################################################### */
+
+                                                                            /* LOGIN PAGE */
+
+                                                                            .loginpg{
+                                                                                margin-top: 30;
+                                                                                padding: 0;
+                                                                                background-color: #000;
+                                                                                background: url(images/loginpic.jpg);
+                                                                                height: 100vh;
+                                                                                width:100%;                                                                             
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: cover;
+                                                                            }
+
+                                                                            .loginbox{
+                                                                                height: 500px;
+                                                                                width: 350px;
+                                                                                background: #000;
+                                                                                opacity: 0.8;
+                                                                                color: #fff;
+                                                                                margin-top: 30%;
+                                                                            }
+
+                                                                            .loginbox input[type="submit"] 
+                                                                            {
+
+                                                                                border: none;
+                                                                                outline: none;
+                                                                                height: 40px;
+                                                                                background: #945858;
+                                                                                margin-left: 30%;
+                                                                                width: 40%;
+                                                                                border-radius: 20px;
+                                                                            }
+
+                                                                            /*COLLAPSE LOGIN PAGE */
+/* ########################################################################################################################################################### */
+
+
+                                                                            /* SIGNUP BOX */
+
+                                                                            .signupbox{
+                                                                                height: 750px;
+                                                                                width: 400px;
+                                                                                background: #000;
+                                                                                opacity: 0.8;
+                                                                                color: #fff;
+                                                                                margin-top: 0%;
+                                                                            }
+
+
+                                                                            .signupbox input[type="submit"] 
+                                                                            {
+
+                                                                                border: none;
+                                                                                outline: none;
+                                                                                height: 40px;
+                                                                                background: #945858;
+                                                                                margin-left: 30%;
+                                                                                width: 40%;
+                                                                                border-radius: 20px;
+                                                                            }
+                                                                            /* COLLAPSE SIGNUP BOX */
+/* ########################################################################################################################################################### */
