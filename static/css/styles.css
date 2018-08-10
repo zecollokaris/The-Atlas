@@ -11,7 +11,11 @@
                                                                             }
 
                                                                             .landingpage{
-                                                                                background-image: url(images/loginpic.jpg);
+                                                                                background-image: url(images/land.png);
+                                                                                height: 770px;
+                                                                                width: 100%;
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: cover;
                                                                             }
 
                                                                             /* AT (padding: 10px 500px ) the awsome nav bar effect
@@ -175,6 +179,34 @@
 
 
                                                                             /* MAP INSIDE CONTENT SECTION */
+                                                                            .movebtn{
+                                                                                position: absolute;
+                                                                                margin-top: 28%;
+                                                                                margin-left: 50%;
+                                                                                border: none;
+                                                                                outline: none;
+                                                                                height: 40px;
+                                                                                background: red;
+                                                                                text-align: center;
+                                                                                padding-top: 10px;
+                                                                                color: white;
+                                                                                width: 10%;
+                                                                                border-radius: 20px;
+                                                                                text-decoration: none;   
+                                                                            }
+
+                                                                            .movebtn:hover{
+                                                                                cursor: pointer;
+                                                                                background-color;
+                                                                                opacity: .7; 
+                                                                            }
+                                                                            .movebtn>a{
+                                                                                color: unset;
+                                                                            }
+                                                                            .movebtn>a:hover{
+                                                                                text-decoration: none;
+                                                                                color: unset;
+                                                                            }
                                                                             #map{
                                                                                 height: 600px;
                                                                                 width: 90%;
