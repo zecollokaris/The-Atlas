@@ -10,6 +10,9 @@
                                                                                 font-family: Quicksand;
                                                                             }
 
+                                                                            .landingpage{
+                                                                                background-image: url(images/loginpic.jpg);
+                                                                            }
 
                                                                             /* AT (padding: 10px 500px ) the awsome nav bar effect
                                                                             of sliding to position is produced */
